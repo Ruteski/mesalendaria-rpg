@@ -1,7 +1,7 @@
 #######################################################
 ## jarvis Oracle Cloud ################################
 #! /bin/sh
-VERSION="v1.01"
+VERSION="v1.02"
 echo "========================================"
 case "$1" in
     ligar)
@@ -41,7 +41,7 @@ case "$1" in
         echo "1. Reinicie a maquina no oracle."
         echo "2. Reinicie o foundry (./jarvis reiniciar)"
         echo "3. Tente acessar pelo IP: $(curl -s ifconfig.me):30000"
-        echo "4. Se por IP funcionou o problema e com o dominio. Veja se o apontamento esta certo. Refaca o processo conforme o video."        
+        echo "4. Se por IP funcionou o problema e com o dominio. Veja se o apontamento esta certo. Refaca o processo."        
         echo
     ;; 
     update)
