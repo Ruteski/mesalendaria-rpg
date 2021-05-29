@@ -1,7 +1,7 @@
 #######################################################
 ## jarvis Oracle Cloud ################################
 #! /bin/sh
-VERSION="v1.0"
+VERSION="v1.01"
 echo "========================================"
 case "$1" in
     ligar)
@@ -43,7 +43,6 @@ case "$1" in
         echo "3. Tente acessar pelo IP: $(curl -s ifconfig.me):30000"
         echo "4. Se por IP funcionou o problema e com o dominio. Veja se o apontamento esta certo. Refaca o processo conforme o video."        
         echo
-        echo "Mais ajuda no link do mestre digital: https://www.mestredigital.online/post/guia-de-instalacao-do-foundry-vtt-na-oracle-cloud"
     ;; 
     update)
         echo "======================"
